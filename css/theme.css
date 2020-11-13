@@ -19,6 +19,7 @@ body {
 	font-weight: 400;
 	font-family: "Raleway", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	color: #222; 
+	background-color: #EBEEEE;
 }
 
 /* Typography
@@ -290,7 +291,7 @@ hr {
 .newsletter input {
 	width: 150px;
 	margin-right: 1rem;
-	background-color: #fff;
+	background-color: white;
 }
 
 
@@ -304,14 +305,15 @@ hr {
 /* forms */
 
 input, textarea {
-	background-color: #eee;
+	background-color: whitesmoke;
 	width: 100%;
 	padding: 1rem;
-	border: 0;
+	border: 1px solid rgba(0, 0, 0, .5);
 	border-radius: 3px;
 	-webkit-box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
+	border-style: outset;
 }
 
 [type="button"], [type="reset"], [type="submit"] {
@@ -422,3 +424,44 @@ footer li a{
 	animation: fade-in 1.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
 }
 
+#further-inquiries {
+	position: relative;
+	bottom: 80px;
+	margin-bottom: -80px;
+}
+
+#jake {
+	width: 50%;
+}
+
+#email-subject {
+	position: relative;
+	bottom: 30px;
+}
+
+#message {
+	position: relative;
+	bottom: 100px;
+}
+
+.portfolio {
+	margin: 20px;
+}
+
+.services {
+	margin-top: 10px;
+	margin-left: 8px;
+	margin-bottom: 20px;
+}
+.section-title-height {
+	margin-top: 40px;
+}
+#service-break {
+	height: 100px;
+}
+.border-top {
+	border-top: 1px solid rgba(0, 0, 0, .5);
+}
+#meet-team {
+	margin-top: -20px;
+}
