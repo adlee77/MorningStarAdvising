@@ -183,33 +183,33 @@
                             <p>If you are interested in or have further questions regarding MorningStar Advising, please use the contact form below.</p>
                         </div>
                     </div>
-                    <form action="">
+                    <form action="form-to-email.php" method="post" name="myemailform">
                         <div class="row margin-bottom-small">
                             <div class="col-md padding-small">
                                 <div class="row">
                                     <div class="col-md">
                                         <p>First Name*</p>
-                                        <input type="text" name="" value="" class="margin-bottom-small">
+                                        <input type="text" name="firstName" value="" class="margin-bottom-small">
                                     </div>
                                     <div class="col-md">
                                         <p>Last Name*</p>
-                                        <input type="text" name="" value="" class="margin-bottom-small">
+                                        <input type="text" name="lastName" value="" class="margin-bottom-small">
                                     </div>
                                 </div>
                                 <div id="email-subject" class="row margin-bottom-small">
                                     <div class="col-md">
                                         <p>Subject*</p>
-                                        <input type="email" name=""  value="" class="margin-bottom-small">
+                                        <input type="email" name="subject"  value="" class="margin-bottom-small">
                                         <p>Email*</p>
-                                        <input type="email" name="" value="" class="margin-bottom-small">
+                                        <input type="email" name="email" value="" class="margin-bottom-small">
                                     </div>
                                 </div>
                             </div>
                         </div>
                             <div id="message" class="col-md padding-small">
                                 <p>Message</p>
-                                <textarea name="" rows="8" class="margin-bottom-small"></textarea>
-                                <input type="submit" value="Submit">
+                                <textarea name="message" rows="8" class="margin-bottom-small"></textarea>
+                                <input type="submit" value="Send Form">
                             </div>
                     </form>
                 </div>
